@@ -1,0 +1,44 @@
+/* || Header styles */
+
+
+/* || Navigation styles */
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-list a {
+  font-family: "Bebas Neue", sans-serif;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+  background-color: var(--main-accent-color);
+}
+
+/* || Wide Screen Styles */
+
+@media screen and (min-width: 800px) {
+  /* || Header styles */
+  header {
+    align-items: center;
+  }
+  /* || Navigation styles */
+  nav {
+    margin-left: auto;
+    margin-right: 2vw;
+  }
+  .nav-list {
+    display: flex;
+    text-align: end;
+    margin-top: 3vh;
+  }
+  .nav-list a {
+    margin: 20px;
+  }
+}

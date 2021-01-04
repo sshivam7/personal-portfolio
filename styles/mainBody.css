@@ -1,0 +1,185 @@
+
+
+/* || About section */
+
+#about-section {
+  background: url(../images/backgrounds/background.jpg) no-repeat top left /
+    cover;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  height: 100vh;
+}
+
+.name-title {
+  letter-spacing: 5px;
+  text-align: center;
+  font: bold 5em "Staatliches", sans-serif;
+  color: white;
+}
+
+.about-info span {
+  color: var(--main-accent-color);
+  font: 1em "Roboto", sans-serif;
+}
+
+.external-links {
+  text-align: center;
+  margin: 10vh 0vw 5vh 10vw;
+}
+
+.external-links a {
+  padding-right: 15vw;
+}
+
+
+/* || Languages Section */
+#languages-section {
+  background-color: var(--main-black-color);
+  margin: 0px;
+  display: block;
+}
+
+#languages-section h2 {
+  margin-top: 12vh;
+  text-align: center;
+}
+
+#languages-section ul {
+  list-style: none;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0vh 5vw 0vh 5vw;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+#languages-section ul li {
+  display: flex;
+  margin: 2vh 8vw 2vh 0vw;
+}
+
+#languages-section p{
+  color: white;
+  margin: 0px;
+  font: bold 3em "Staatliches", sans-serif;
+  padding-top: 0.6em;
+  padding-left: 1vw;
+  letter-spacing: 2px;
+}
+
+
+/* || Projects Section */
+#project-section {
+  background-color: var(--main-black-color);
+  display: block;
+  flex-wrap: wrap;
+  margin-bottom: 10vh;
+  background:  linear-gradient(
+    rgba(3, 3, 3, 0.5), 
+    rgba(5, 5, 5, 0.5)),
+    url(../images/backgrounds/background-f.jpg) no-repeat top left /
+  cover;
+}
+
+#project-section h2 {
+  font: 5em "Staatliches", sans-serif;
+  padding-top: 10vh;
+  margin-left: 4vw;
+  text-align: center;
+}
+
+.project-section h3 {
+  margin-bottom: 1vh;
+  text-align: center;
+}
+
+.tech-used ul{
+  padding: 0px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.tech-used ul li{
+  list-style: none;
+}
+
+.project-section article {
+  margin: 5vh 12vw 5vh 12vw;
+}
+
+
+/* ----------------- || Wide Screen -------------------- */
+
+/* || About section */
+
+@media screen and (min-width: 800px) {
+  .name-title {
+    width: 100%;
+    margin: 20vh 50vw 2vh 10vw;
+    margin-right: 50vw;
+    margin-top: 20vh;
+    font-size: 8em;
+    text-align: left;
+  }
+
+  .about-info {
+    margin: 0vh 40vw 0vh 10vw;
+    color: white;
+    text-align: left;
+    font: 2em "Roboto", sans-serif;
+    letter-spacing: 1px;
+  }
+
+  .external-links {
+    text-align: left;
+    margin: 5vh 0vw 5vh 10vw;
+  }
+  
+  .external-links a {
+    padding-right: 1.5vw;
+  }
+
+  /* Languages Section */
+  #languages-section {
+    display: flex;
+  }
+
+  #languages-section h2 {
+    text-align: initial;
+    margin-left: 4vw;
+  }
+
+  /* Projects Section */
+  #project-section {
+    display: flex;
+  }
+
+  .project-section {
+    margin: 0vh 10vw 0vh 4vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .project-section h3 {
+    margin-bottom: 1vh;
+    min-width: 12vw;
+    text-align: left;
+  }
+
+  .tech-used ul{
+    align-content: flex-start;
+    justify-content: left;
+  }
+
+}
+
+@media screen and (min-width: 3000px) {
+  .about-tags {
+    bottom: 1vh;
+  }
+}

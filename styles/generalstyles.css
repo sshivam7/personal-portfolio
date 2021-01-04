@@ -1,0 +1,91 @@
+/* || General styles */
+
+* {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  /* Color variables to be used throughout the application*/
+  --main-accent-color: #ff4655;
+  --main-black-color: #111111;
+  --dark-accent-color: #a95dff;
+  overflow-x: hidden;
+  margin: 0;
+  background-color: var(--main-black-color);
+}
+
+header {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+footer {
+  background-color: #161616;
+  margin-top: 5vh;
+  height: 15vh;
+  text-align: center;
+  padding-top: 4vh;
+}
+
+.references {
+  font-size: 1em;
+}
+
+/* || Fonts and Text Styling */
+
+h2 {
+  margin: 0px;
+  color: white;
+  font: 5em "Bebas Neue", sans-serif;
+}
+
+h3 {
+  color: var(--main-accent-color);
+  font: 5em "Bebas Neue", sans-serif;
+}
+
+p,
+abbr {
+  color: #FFFFFF;
+  font: 1.6rem "Montserrat", sans-serif;
+}
+
+/* || Link styling */
+
+a {
+  font: 1em "Montserrat", sans-serif;
+  color: var(--main-accent-color);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--dark-accent-color);
+}
+
+a:hover {
+  border-bottom: 2px solid white;
+}
+
+a:active {
+  color: white;
+}
+
+/* || Special styling */
+
+.drop-caps::first-letter {
+  color: white;
+  float: left;
+  font-family: Georgia;
+  font-size: 3em;
+  padding-right: 5px;
+}
+
+::selection {
+  background-color: #ff465698;
+}
+
+@media screen and (min-width: 800px) {
+    .bracket-border {
+        background-size: 200px 200px;
+    }
+}
