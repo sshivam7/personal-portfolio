@@ -33,6 +33,10 @@
   padding-right: 15vw;
 }
 
+.external-links a:hover {
+  border-bottom: none;
+}
+
 
 /* || Languages Section */
 #languages-section {

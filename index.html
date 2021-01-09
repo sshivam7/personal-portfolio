@@ -7,7 +7,7 @@
     <title>Shivam's Personal Portfolio</title>
 
     <!-- Fav Icon -->
-    <link rel="icon" type="image/png" href="images/favicon.ico"/>
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
 
     <!-- CSS Style Sheets-->
     <link href="styles/generalstyles.css" rel="stylesheet">
@@ -16,7 +16,8 @@
     <link href="styles/gallery.css" rel="stylesheet">
 
     <!-- Fonts from google -->
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&family=Montserrat&display=swap"
+        rel="stylesheet">
 
     <!-- Scripts -->
     <script src="scripts/gallery.js" defer></script>
@@ -36,24 +37,43 @@
             </nav>
             <div>
                 <h1 class="name-title">Shivam Sood</h1>
-                <p class="about-info">Hi! I'm a first year <span>Computer Engineering</span> student at the University of Waterloo. I'm passionate about computers and engineering and excited to build my experiences and skills with the goal of making meaningful contributions through technology.</p>
+                <p class="about-info">Hi! I'm a <span>Computer Engineering</span> student at the University
+                    of Waterloo. I'm passionate about computers and engineering and excited to build my experiences and
+                    skills with the goal of making meaningful contributions through technology.</p>
                 <div class="external-links">
-                    <a class="github-link" href="https://github.com/sshivam7"><img src="images/logos/GitHub-Mark-Light-64px.png" class="github-logo" alt="my github" width="41px"></img></a>
-                    <a class="linkedin-link" href="www.linkedin.com/in/shivam-sood-3b7159203"><img src="images/logos/linkedin-3-64.png" class="linkedin-logo" alt="my linkedin" width="41px"></img></a>
+                    <a class="github-link" href="https://github.com/sshivam7"><img
+                            src="images/logos/GitHub-Mark-Light-64px.png" class="github-logo" alt="my github"
+                            width="47px"></img></a>
+                    <a class="linkedin-link" href="https://linkedin.com/in/shivam-sood-3b7159203"><img
+                            src="images/logos/linkedin-3-64.png" class="linkedin-logo" alt="my linkedin"
+                            width="41px"></img></a>
                 </div>
             </div>
-            
+
         </section>
 
         <section id="languages-section">
             <h2>Languages</h2>
             <ul>
-                <li><img src="images/logos/icons8-java-100.png" alt="java icon" width="40%" height="40%"></img><p>Java</p></li>
-                <li><img src="images/logos/icons8-c++-100.png" alt="C++ icon" width="40%" height="40%"></img><p>C++</p></li>
-                <li><img src="images/logos/icons8-python-96.png" alt="Python icon" width="40%" height="40%"></img><p>Python</p></li>
-                <li><img src="images/logos/icons8-html-5-96.png" alt="HTML icon" width="40%" height="40%"></img><p>HTML</p></li>
-                <li><img src="images/logos/icons8-javascript-96.png" alt="JavaScript icon" width="30%" height="30%"></img><p>JavaScript</p></li>
-                <li><img src="images/logos/icons8-css3-90.png" alt="CSS3 icon" width="40%" height="40%"></img><p>CSS</p></li>
+                <li><img src="images/logos/icons8-java-100.png" alt="java icon" width="40%" height="40%"></img>
+                    <p>Java</p>
+                </li>
+                <li><img src="images/logos/icons8-c++-100.png" alt="C++ icon" width="40%" height="40%"></img>
+                    <p>C++</p>
+                </li>
+                <li><img src="images/logos/icons8-python-96.png" alt="Python icon" width="40%" height="40%"></img>
+                    <p>Python</p>
+                </li>
+                <li><img src="images/logos/icons8-html-5-96.png" alt="HTML icon" width="40%" height="40%"></img>
+                    <p>HTML</p>
+                </li>
+                <li><img src="images/logos/icons8-javascript-96.png" alt="JavaScript icon" width="30%"
+                        height="30%"></img>
+                    <p>JavaScript</p>
+                </li>
+                <li><img src="images/logos/icons8-css3-90.png" alt="CSS3 icon" width="40%" height="40%"></img>
+                    <p>CSS</p>
+                </li>
             </ul>
         </section>
 
@@ -61,26 +81,66 @@
             <h2>Projects</h2>
             <div class="project-section">
                 <div class="tech-used">
+                    <h3>Vocabulary Builder</h3>
+                    <ul>
+                        <li><img src="images/logos/icons8-html-5-96.png" alt="HTML icon" width="30px"></img></li>
+                        <li><img src="images/logos/icons8-javascript-96.png" alt="JavaScript icon" width="30px"></img>
+                        </li>
+                        <li><img src="images/logos/icons8-css3-90.png" alt="CSS3 icon" width="30px"></img></li>
+                    </ul>
+                </div>
+                <article>
+                    <P class="drop-caps">Vocabulary builder is a dynamic multipage website created using the <b>MERN</b>
+                        software stack. The website helps users consolidate and improve their vocabulary by organizing
+                        words into
+                        separate cards and their associated decks. Adding new decks and cards is easy, and with the
+                        RESTful API created
+                        using Node.js and Express, all of the basic CRUD operations are also possible.
+                    </p>
+
+                    <p><b>Features: </b>
+
+                    <ul class="feature-list">
+                        <li>The site features user authentications using JSON Web Tokens and the Passport middleware for
+                            Node.js.</li>
+                        <li>Passwords are hashed using the bcrypt library and stored in a MongoDB database (this project
+                            makes use of the Mongoose ODM library).</li>
+                        <li>Users also have the option to use the OwlBot API to autofill card data and quickly add new
+                            words.</li>
+                    </ul>>
+
+                    <p>This project is currently a work in progress; however, a live <a
+                            href="https://vocabbuilder.herokuapp.com/">demo</a> has been made available using
+                        Heroku. Please note that the OwlBot autofill feature has been disabled for this demo.</p>
+                </article>
+            </div>
+            <div class="project-section">
+                <div class="tech-used">
                     <h3>Quanda</h3>
                     <ul>
                         <li><img src="images/logos/icons8-html-5-96.png" alt="HTML icon" width="30px"></img></li>
                         <li><img src="images/logos/icons8-python-96.png" alt="Python icon" width="30px"></img></li>
-                        <li><img src="images/logos/icons8-javascript-96.png" alt="JavaScript icon" width="30px"></img></li>
+                        <li><img src="images/logos/icons8-javascript-96.png" alt="JavaScript icon" width="30px"></img>
+                        </li>
                         <li><img src="images/logos/icons8-css3-90.png" alt="CSS3 icon" width="30px"></img></li>
                     </ul>
                 </div>
-                    <article>
-                        <P class="drop-caps">Quanda is a simple question and answers website, created using the 
-                            <a href="https://www.djangoproject.com/">Django</a> web framework and built with the 
-                            goal of developing a basic understanding of server-side web programming and generating 
-                            dynamic web content. The project helped me familiarize myself with the MVT (Model View Template) 
-                            architectural pattern used by Django, and further reading allowed me to obtain a better 
-                            understanding of the basics of web security.</p>
+                <article>
+                    <P class="drop-caps">Quanda is a simple question and answers website, created using the
+                        <a href="https://www.djangoproject.com/">Django</a> web framework and built with the
+                        goal of developing a basic understanding of server-side web programming and generating
+                        dynamic web content. The project helped me familiarize myself with the MVT (Model View Template)
+                        architectural pattern used by Django, and further reading allowed me to obtain a better
+                        understanding of the basics of web security.
+                    </p>
 
-                        <p>The site itself allows logged in users to post questions and answers, as well as vote (up or down) other 
-                            responses. Logged in users are also free to make changes (edit, delete, mark as resolved, etc.) to the 
-                            content that they have created or navigate to the “My Content” page to view all of the content they have posted.</p>
-                    </article>
+                    <p>The site itself allows logged in users to post questions and answers, as well as vote (up or
+                        down) other responses. Logged in users are also free to make changes (edit, delete, mark as
+                        resolved, etc.)
+                        to the content that they have created or navigate to the “My Content” page to view all of the
+                        content
+                        they have posted.</p>
+                </article>
             </div>
             <div class="project-section">
                 <div class="tech-used">
@@ -89,14 +149,18 @@
                         <li><img src="images/logos/icons8-java-100.png" alt="java icon" width="30px"></img></li>
                     </ul>
                 </div>
-                    <article>
-                        <P class="drop-caps">Quizia is an android trivia game that uses the <a href="https://opentdb.com/">Open Trivia Database </a>
-                            to present a multiplayer quiz to users. The application makes use of the android shared preferences API in order 
-                            to store game options such as level of difficulty or specific quiz categories. The data is then read and
-                             appended to a base URL to fetch questions from the API. The requests in question are made using the volley 
-                             library.</p>
+                <article>
+                    <P class="drop-caps">Quizia is an android trivia game that uses the <a
+                            href="https://opentdb.com/">Open Trivia Database </a>
+                        to present a multiplayer quiz to users. The application makes use of the android shared
+                        preferences API in order
+                        to store game options such as level of difficulty or specific quiz categories. The data is then
+                        read and
+                        appended to a base URL to fetch questions from the API. The requests in question are made using
+                        the volley
+                        library.</p>
 
-                    </article>
+                </article>
             </div>
             <div class="project-section">
                 <div class="tech-used">
@@ -105,26 +169,35 @@
                         <li><img src="images/logos/icons8-java-100.png" alt="java icon" width="30px"></img></li>
                     </ul>
                 </div>
-                    <article>
-                        <P class="drop-caps"> Battleship is a multiplayer LAN rendition of the classic Battleship board game. 
-                            The project was built using Java and focused on the application of object-oriented principles. The program 
-                            implements the ServerSocket and Socket classes from the java.net library to establish a connection between 
-                            two players located on the same network. Communication between the server and the client is handled using 
-                            a separate thread in order to ensure that the user can continue to interact with the game interface. 
-                            My contributions included handling client-server interactions and incorporating multi-threading  </p>
-                    </article>
+                <article>
+                    <P class="drop-caps"> Battleship is a multiplayer LAN rendition of the classic Battleship board
+                        game.
+                        The project was built using Java and focused on the application of object-oriented principles.
+                        The program
+                        implements the ServerSocket and Socket classes from the java.net library to establish a
+                        connection between
+                        two players located on the same network. Communication between the server and the client is
+                        handled using
+                        a separate thread in order to ensure that the user can continue to interact with the game
+                        interface.
+                        My contributions included handling client-server interactions and incorporating multi-threading
+                    </p>
+                </article>
             </div>
         </section>
 
-        
+
 
         <section id="gallery-section">
             <h3>Project Gallery</h3>
 
             <div class="image-nav">
-                <input type="image" aria-label="Click for previous image" class="prev-button" src="images/logos/leftArrow.svg" width="20px">
-                <img class="current-img" alt="Large image selected from image navigation bar shown here" src="images/gallery/pic1.jpg">
-                <input type="image" aria-label="Click for next image" class="next-button" src="images/logos/rightArrow.svg" width="20px">
+                <input type="image" aria-label="Click for previous image" class="prev-button"
+                    src="images/logos/leftArrow.svg" width="20px">
+                <img class="current-img" alt="Large image selected from image navigation bar shown here"
+                    src="images/gallery/pic1.jpg">
+                <input type="image" aria-label="Click for next image" class="next-button"
+                    src="images/logos/rightArrow.svg" width="20px">
             </div>
             <div class="image-bar"></div>
         </section>
@@ -132,8 +205,9 @@
     </main>
 
     <footer>
-        <p> Shivam Sood | <a href="https://github.com/sshivam7">GitHub: ShivamSood17</a> </p>
-        <p class="references">Icons from Icons8 <br> Black Sand Dunes by Adrien Olichon</p>
+        <p> Shivam Sood | <a href="https://github.com/sshivam7">GitHub: sshivam7</a> </p>
+        <p class="references">Icons from <a href="https://icons8.com/">Icons8</a> <br> Black Sand Dunes by Adrien
+            Olichon</p>
     </footer>
 
 </body>

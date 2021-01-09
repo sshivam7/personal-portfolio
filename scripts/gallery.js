@@ -12,7 +12,7 @@ var nextBtn = document.querySelector(".next-button");
 var imageBar = document.querySelector(".image-bar");
 var currentImg = document.querySelector(".current-img");
 
-var numOfImages = 13; // Number of images located in the gallery
+var numOfImages = 14; // Number of images located in the gallery
 
 // Add all images form the gallery folder to the image bar
 for (var i = 1; i <= numOfImages; i++) {

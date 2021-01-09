@@ -50,6 +50,19 @@ abbr {
   font: 1.6rem "Montserrat", sans-serif;
 }
 
+.feature-list {
+  font: 1.6rem "Montserrat", sans-serif;
+  color: white;
+}
+
+.feature-list li {
+  font-size: 1em;
+}
+
+p b {
+  font-size: 1em;
+}
+
 /* || Link styling */
 
 a {
